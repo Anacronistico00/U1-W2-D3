@@ -277,8 +277,10 @@ for (let i = 0; i < starWarsCharacters.length; i++) {
 */
 
 console.log(charactersNames.length);
+console.log(femaleCharacters.length);
+
 for (let i = 0; i < charactersNames.length; i++) {
-  for (let j = 0; j < femaleCharacters.length; i++) {
+  for (let j = 0; j < femaleCharacters.length; j++) {
     if (femaleCharacters[j].name === charactersNames[i])
       charactersNames.splice(i, 1);
   }
